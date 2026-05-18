@@ -572,6 +572,48 @@ section.hero::after{
   box-shadow:none !important;
 }
 </style>
+
+<style id="final-hero-copy-left-bottom-20260518">
+/* 첫번째 메인화면 왼쪽 하단 문구 위치만 조정 */
+@media (min-width: 761px){
+  .hero .container.hero-inner{
+    width:100% !important;
+    max-width:none !important;
+    margin-left:0 !important;
+    margin-right:0 !important;
+    padding-left:52px !important;
+    padding-right:40px !important;
+  }
+  .hero-inner > div{
+    transform:translate(0, 46px) !important;
+    max-width:760px !important;
+    text-align:left !important;
+  }
+  .hero h1{
+    max-width:760px !important;
+    text-align:left !important;
+    white-space:pre-line !important;
+  }
+  .hero p{
+    max-width:720px !important;
+    text-align:left !important;
+  }
+}
+@media (max-width: 760px){
+  .hero .container.hero-inner{
+    width:min(1180px, calc(100% - 32px)) !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+    padding-left:0 !important;
+    padding-right:0 !important;
+  }
+  .hero-inner > div{
+    transform:translate(0, 18px) !important;
+    max-width:100% !important;
+    text-align:left !important;
+  }
+}
+</style>
 </head>
 <body>
 <header>
